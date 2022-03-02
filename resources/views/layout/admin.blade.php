@@ -268,7 +268,7 @@
                           <div class="pcoded-navigation-label" data-i18n="nav.category.forms">Fasilitas</div>
                           <ul class="pcoded-item pcoded-left-item">
                               <li>
-                              <a href="{{ url('fasilitashotels') }}" class="dropdown-toggle no-arrow">
+                              <a href="{{ url('/fasilitashotels') }}" class="dropdown-toggle no-arrow">
 							<span class="micon dw dw-edit2"></span><span class="mtext">Fasilitas Hotel</span>
 						</a>
                               </li>

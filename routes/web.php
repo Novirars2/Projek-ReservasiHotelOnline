@@ -19,4 +19,7 @@ Route::get('/', function () {
 });
 Route::view('admins','layout/admin');
 Route::view('receptionist','layout/resepsionis');
-Route::resource('fasilitashotels', FasilitasHotelController::class);
+Route::get(
+    '/fasilitashotels',
+    [FasilitasHotelController::class, 'index']
+);
